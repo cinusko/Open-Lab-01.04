@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NUnitLite;
+using System;
 
 namespace Open_Lab_01._04
 {
@@ -6,7 +7,8 @@ namespace Open_Lab_01._04
     {
         public double Area(double foundation, double height)
         {
-            throw new NotImplementedException();
+           return (foundation * height) * 0.5;
+
         }
     }
 }
